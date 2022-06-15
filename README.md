@@ -18,7 +18,7 @@ It utilizes reacts Class components to function and implement its various featur
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://calcufast.netlify.app/)
 
 ### Development (Running locally)
 
