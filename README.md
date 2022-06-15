@@ -1,16 +1,20 @@
 # Calculator App
 
-> One paragraph statement about the project.
+> This is a Calculator application built with react.js.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./src/img/calc.PNG)
 
-Additional description about the project and its features.
+It utilizes reacts Class components to function and implement its various features.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- JavaScript
+
+- CSS
+
+- React
+
+- JSX
 
 ## Live Demo
 
@@ -70,9 +74,9 @@ npm run html-validator
 
 ## 👤 Author
 
-- Github: [@author](https://github.com/author)
-- Twitter: [@author](https://twitter.com/author)
-- Linkedin: [@author](https://www.linkedin.com/in/author/)
+- Github: [@Lanr3waju]<https://github.com/Lanr3waju>)
+- LinkedIn: [@Abass Olanrewaju](https://www.linkedin.com/in/abass-olanrewaju-abdul-wasi-53883422a/)
+- Twitter: [@abdul-wasi-img](https://twitter.com/abdul_wasi_img)
 
 ## 🤝 Contributing
 
@@ -86,9 +90,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration, resources/assets used
-- etc
+- I appreciate the efforts of my mentors for their constatnt guidance and contribtution.
+- [@bolah2009](http://github.com/bolah2009)
+- [@adejam](https://github.com/adejam)
 
 ## 📝 License
 
