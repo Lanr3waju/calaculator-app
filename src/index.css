@@ -1,3 +1,48 @@
 * {
+  box-sizing: border-box;
   margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  line-height: 1.4;
+  color: #444;
+  background: #fff;
+  height: 100vh;
+  margin: 10px;
+}
+
+.calc-container {
+  text-align: center;
+  max-width: 30%;
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  -ms-grid-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto;
+}
+
+.digit {
+  cursor: pointer;
+  font-weight: 600;
+  padding: 10px;
+  background-color: #dfdede;
+  border: 1px solid #b0adad;
+}
+
+.digit:nth-child(4n + 5),
+.digit:nth-child(20) {
+  background-color: rgb(214, 143, 117);
+}
+
+.digit:nth-child(1) {
+  grid-column-end: span 4;
+  background-color: #444;
+  color: white;
+  text-align: right;
+}
+
+.digit:nth-child(18) {
+  grid-column-end: span 2;
 }
