@@ -36,13 +36,13 @@ body {
   background-color: rgb(214, 143, 117);
 }
 
-.display-output {
+.digit:nth-child(1) {
   grid-column-end: span 4;
   background-color: #444;
   color: white;
   text-align: right;
 }
 
-.big-digit {
+.digit:nth-child(18) {
   grid-column-end: span 2;
 }

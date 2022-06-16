@@ -10,28 +10,33 @@ class Calculator extends React.Component {
 
   render() {
     const { output } = this.state;
+    const inputs = [
+      output,
+      'AC',
+      '+/-',
+      '%',
+      '÷',
+      7,
+      8,
+      9,
+      'x',
+      4,
+      5,
+      6,
+      '-',
+      1,
+      2,
+      3,
+      '+',
+      0,
+      '.',
+      '=',
+    ];
     return (
       <div className="calc-container">
-        <div className="digit display-output">{output}</div>
-        <div className="digit">AC</div>
-        <div className="digit">+/-</div>
-        <div className="digit">%</div>
-        <div className="digit">÷</div>
-        <div className="digit ">7</div>
-        <div className="digit">8</div>
-        <div className="digit">9</div>
-        <div className="digit">x</div>
-        <div className="digit">4</div>
-        <div className="digit">5</div>
-        <div className="digit">6</div>
-        <div className="digit">-</div>
-        <div className="digit">1</div>
-        <div className="digit">2</div>
-        <div className="digit">3</div>
-        <div className="digit">+</div>
-        <div className="digit big-digit">0</div>
-        <div className="digit">.</div>
-        <div className="digit">=</div>
+        {inputs.map((input) => (
+          <div key={input} className="digit">{input}</div>
+        ))}
       </div>
     );
   }
