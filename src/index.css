@@ -1,25 +1,23 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 body {
   font-family: "Segoe UI", Arial, sans-serif;
-  line-height: 1.4;
-  color: #444;
-  background: #fff;
-  height: 100vh;
-  margin: 10px;
+  text-align: center;
+  overflow-y: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  margin: 15px 0;
+  color: #b0adad;
+  font-size: large;
 }
 
 .calc-container {
-  text-align: center;
-  max-width: 30%;
-  display: -ms-grid;
+  margin: 15px auto;
+  height: 60vh;
+  width: 30%;
   display: grid;
   grid-template-columns: auto auto auto auto;
-  -ms-grid-columns: auto auto auto auto;
   grid-template-rows: auto auto auto auto auto;
 }
 
@@ -27,8 +25,11 @@ body {
   cursor: pointer;
   font-weight: 600;
   padding: 10px;
+  border-radius: 5px;
+  box-shadow: #0000003d 0 4px 4px;
   background-color: #dfdede;
-  border: 1px solid #b0adad;
+  border: none;
+  margin: 4px;
 }
 
 .digit:nth-child(4n + 5),
@@ -45,4 +46,11 @@ body {
 
 .digit:nth-child(18) {
   grid-column-end: span 2;
+}
+
+@media screen and (max-width: 450px) {
+  .calc-container {
+    margin: 8px auto;
+    width: 90%;
+  }
 }
