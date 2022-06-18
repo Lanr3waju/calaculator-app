@@ -1,19 +1,15 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 body {
   font-family: "Segoe UI", Arial, sans-serif;
   text-align: center;
   overflow-y: hidden;
+  padding: 0;
+  margin: 0;
 }
 
 header {
   margin: 15px 0;
-  font-size: 2em;
   color: #b0adad;
+  font-size: large;
 }
 
 footer {
@@ -24,22 +20,18 @@ footer {
   font-style: italic;
 }
 
-form {
+.calc-container {
   margin: 10px auto;
-  text-align: center;
   height: 60vh;
-  max-width: 20%;
-  display: -ms-grid;
+  width: 30%;
   display: grid;
   grid-template-columns: auto auto auto auto;
-  -ms-grid-columns: auto auto auto auto;
   grid-template-rows: auto auto auto auto auto;
 }
 
 .digit {
   cursor: pointer;
   font-weight: 600;
-  font-size: 1.5em;
   padding: 10px;
   border-radius: 5px;
   box-shadow: #0000003d 0 4px 4px;
@@ -62,4 +54,16 @@ form {
 
 .digit:nth-child(18) {
   grid-column-end: span 2;
+}
+
+@media screen and (max-width: 450px) {
+  .calc-container {
+    margin: 5px auto;
+    width: 90%;
+  }
+
+  footer {
+    margin-top: 3vh;
+    padding: 3px;
+  }
 }
