@@ -9,10 +9,19 @@ It utilizes reacts Class components to function and implement its various featur
 ## Built With
 
 - JavaScript
+- `Array.map()`method.
+- `Objects`
+- Destructuring assignment
 
 - CSS
+- `Box-Shadow` property.
+- `Grid` property.
+- `Overflow`property.
 
 - React
+- `EventListeners` such as `onClick`.
+- React `setState` method
+- React controlled component.
 
 - JSX
 
