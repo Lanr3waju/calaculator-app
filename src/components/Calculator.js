@@ -63,9 +63,6 @@ class Calculator extends React.Component {
              <button key={uuidv4()} name={input} type="button" onClick={this.changeOutput} className="digit">{input}</button>
            ))}
          </form>
-         <footer>
-           <h3>copyright: Lanr3waju 2022</h3>
-         </footer>
        </>
      );
    }
